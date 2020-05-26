@@ -57,7 +57,7 @@ https://github.com/mastercomfig/mastercomfig/releases
 
 **Note:**
 
-* Start `TF2`, the game will launch and exit afterwards. remove these launch options after
+* Start `TF2`, the game will launch and exit afterwards. remove these launch options after.
  
 ## Step 6:
  
