@@ -10,7 +10,7 @@ Big thanks to [mastercoms](https://github.com/mastercoms/) for making this confi
 
 ## Step 1:
  
-https://github.com/mastercomfig/mastercomfig/releases
+https://mastercomfig.com/download
  
 * First of all, download which preset and addons you want to use, it should be in the assets, click the file and it will be downloaded.
 
