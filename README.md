@@ -114,7 +114,7 @@ https://github.com/mastercomfig/mastercomfig/releases
  
 * Download the `user template`, place the `user folder` on your `desktop.`
 
-[user template](https://mega.nz/file/RxcnVYyZ#7lXwIrEWpWOX2u7drC5Ua9kxj59LUXOFHS6oox5DKBY/)
+[user template](https://mega.nz/file/ows0nAqY#jpgJKNTbbRo2tkhbacO84oisfuXu7Ip3KhkuCGSnrE0/)
  
 ## Step 2:
  
