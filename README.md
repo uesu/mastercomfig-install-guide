@@ -10,15 +10,111 @@ Big thanks to [mastercoms](https://github.com/mastercoms/) for making this confi
 
 ## Step 1:
  
-https://mastercomfig.com/download
+https://github.com/mastercomfig/mastercomfig/releases
+
+<table>
+	<thead>
+		<th>presets</th>
+		<th>description</th>
+	</thead>
+	<tbody>
+	<tr>
+		<td>ultra</td>
+		<td>
+			absolute maximum quality
+		</td>
+	</tr>
+	<tr>
+		<td>high</td>
+		<td>
+			high quality
+		</td>
+	</tr>
+		<tr>
+		<td>medium high</td>
+		<td>
+			higher medium preset nearly equal with high
+		</td>
+	</tr>
+		<tr>
+		<td>medium</td>
+		<td>
+			medium quality with adjustable effects
+		</td>
+	</tr>
+		<tr>
+		<td>medium low</td>
+		<td>
+			medium low quality 
+		</td>
+	</tr>
+		<tr>
+		<td>low</td>
+		<td>
+			maximum performance
+		</td>
+	</tr>
+		<tr>
+		<td>very low</td>
+		<td>
+			same as low but disabled parts of hud elements and visibility
+		</td>
+	</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<th>addons</th>
+		<th>description</th>
+	</thead>
+	<tbody>
+	<tr>
+		<td>no footsteps</td>
+		<td>
+			no footstep sounds
+		</td>
+	</tr>
+	<tr>
+		<td>disable pyroland</td>
+		<td>
+			no pyroland map textures
+		</td>
+	</tr>
+		<tr>
+		<td>no soundscapes</td>
+		<td>
+			no ambient noises
+		</td>
+	</tr>
+		<tr>
+		<td>no tutorial</td>
+		<td>
+			no tutorial messages and other popups 
+		</td>
+	</tr>
+		<tr>
+		<td>bad gpu</td>
+		<td>
+			for those who have weak graphics cards 
+		</td>
+	</tr>
+		<tr>
+		<td>low memory</td>
+		<td>
+			for those who have 4GB of ram and lower
+		</td>
+	</tr>
+	</tbody>
+</table>
  
-* First of all, download which preset and addons you want to use, it should be in the assets, click the file and it will be downloaded.
+* First, download which preset and addons you want to use, it should be in the assets, click the file and it will be downloaded.
 
 * Once downloaded, place the `vpk files` on your `desktop`, create a `folder`, name it `custom`, put the `vpk files` in the `folder`.
  
-* Download the `cfg template`, place the `user folder` on your `desktop.`
+* Download the `user template`, place the `user folder` on your `desktop.`
 
-[cfg template](https://mega.nz/file/RxcnVYyZ#7lXwIrEWpWOX2u7drC5Ua9kxj59LUXOFHS6oox5DKBY/)
+[user template](https://mega.nz/file/RxcnVYyZ#7lXwIrEWpWOX2u7drC5Ua9kxj59LUXOFHS6oox5DKBY/)
  
 ## Step 2:
  
@@ -27,7 +123,12 @@ https://mastercomfig.com/download
 * **Location** : `C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf`
  
 ## Step 3:
- 
+
+* Disable **steam cloud in steam**.
+
+		1. Go to the Steam Client Settings
+		2. Select the cloud tab and uncheck the enable steam cloud synchronization
+
 * Disable **steam cloud synchronization**.
 
 		1. Right-click on Team Fortress 2 and select properties
