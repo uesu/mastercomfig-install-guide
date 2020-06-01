@@ -124,7 +124,7 @@ https://github.com/mastercomfig/mastercomfig/releases
  
 ## Step 3:
 
-* Disable **steam cloud in steam**.
+* Disable **steam cloud on steam**.
 
 		1. Go to the Steam Client Settings
 		2. Select the cloud tab and uncheck the enable steam cloud synchronization
