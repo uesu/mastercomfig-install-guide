@@ -1,16 +1,29 @@
-# mastercomfig install
+<h1 align="center">
+mastercomfig install
+</h1>
 
-This guide should help people how to install mastercomfig.
- 
-Big thanks to [mastercoms](https://github.com/mastercoms/) for making this config.
+<p align="center">This guide should help people how to install mastercomfig.
+</p>
+
+<p align="center">Big thanks to
+	<a href="https://github.com/mastercoms">mastercoms</a> for making this config.
+</p>
 
 **Note:**
  
 * When updating mastercomfig, you don't have to clean TF2. If there is a new update on the site, you should take some time to read what changes have been made and change if there are any changes `(the launch options would be an example)`. If you have any problems or concerns, you can ask questions on mastercoms (mastercomfig) discord server.
 
 ## Step 1:
+
+download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here](https://mastercomfig.com/download)
  
-https://github.com/mastercomfig/mastercomfig/releases
+* First, download which preset and addons you want to use, it should be in the assets, click the file and it will be downloaded.
+
+* Once downloaded, place the `vpk files` on your `desktop`, create a `folder`, name it `custom`, put the `vpk files` in the `folder`.
+ 
+* Download the `user template`, place the `user folder` on your `desktop.`
+
+[user template](https://mega.nz/file/ows0nAqY#jpgJKNTbbRo2tkhbacO84oisfuXu7Ip3KhkuCGSnrE0/)
 
 <table>
 	<thead>
@@ -107,14 +120,6 @@ https://github.com/mastercomfig/mastercomfig/releases
 	</tr>
 	</tbody>
 </table>
- 
-* First, download which preset and addons you want to use, it should be in the assets, click the file and it will be downloaded.
-
-* Once downloaded, place the `vpk files` on your `desktop`, create a `folder`, name it `custom`, put the `vpk files` in the `folder`.
- 
-* Download the `user template`, place the `user folder` on your `desktop.`
-
-[user template](https://mega.nz/file/ows0nAqY#jpgJKNTbbRo2tkhbacO84oisfuXu7Ip3KhkuCGSnrE0/)
  
 ## Step 2:
  
