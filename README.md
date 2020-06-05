@@ -19,7 +19,7 @@ download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
  
 * First, download which preset and addons you want to use, it should be in the assets, click the file and it will be downloaded.
 
-* Once downloaded, place the `vpk files` on your `desktop`, create a `folder`, name it `custom`, put the `vpk files` in the `folder`.
+* Once downloaded, place the `vpk files` on your `desktop`, create a `folder`, name it `custom` and put the `vpk files` in the `folder`.
  
 * Download the `user template`, place the `user folder` on your `desktop.`
 
