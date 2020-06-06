@@ -15,7 +15,7 @@ mastercomfig install
 
 ## Step 1:
 
-download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here](https://mastercomfig.com/download)
+Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here](https://mastercomfig.com/download)
  
 * First, download which preset and addons you want to use, it should be in the assets, click the file and it will be downloaded.
 
