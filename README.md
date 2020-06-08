@@ -169,7 +169,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
  
 * Go to the TF2 properties again, `copy and paste` into the launch option: `(subject to change)`
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -console -nostartupsound -dxlevel 81 -w 1366 -h 768 -freq 144`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -console -nostartupsound -dxlevel 81 -freq 144`
  
 * Select which dxlevel best performs for you:
 
