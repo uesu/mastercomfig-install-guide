@@ -11,7 +11,7 @@ mastercomfig install
 
 **Note:**
  
-* When updating mastercomfig, you don't have to clean TF2. If there is a new update on the site, you should take some time to read what changes have been made and change if there are any changes `(the launch options would be an example)`. If you have any problems or concerns, you can ask questions on mastercoms (mastercomfig) discord server.
+* When updating **modules, presets and addons**, you don't need to clean TF2 again. I recommend that you join **mastercomfig** [discord server](https://discord.com/invite/CuPb2zV) to see **updates + ask questions** if you have problems. Please read the **changelog!** There might be some adjustments you need to change `(the launch options would be an example)`, so keep an eye on it.
 
 ## Step 1:
 
@@ -173,7 +173,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
  
 * Go to the TF2 properties again, `copy and paste` into the launch option: `(subject to change)`
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -console -nostartupsound -dxlevel 81 -freq 144`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -console -dxlevel 81 -freq 144`
  
 * Select which dxlevel best performs for you:
 
@@ -216,7 +216,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
  
 With the in-game resolution settings, you can set your resolution to `mat_setvideomode 1920 1080 0` within the `console`. Change `1920 1080` to your desired resolution.
  
-[launch options](https://docs.mastercomfig.com/en/stable/customization/launch_options/)
+[launch options](https://docs.mastercomfig.com/en/latest/customization/launch_options/)
  
 ## Step 7:
  
