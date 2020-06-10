@@ -120,6 +120,8 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 	</tr>
 	</tbody>
 </table>
+
+* note: update presets and addons if there is a new update!
  
 ## Step 2:
  
