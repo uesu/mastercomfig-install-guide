@@ -1,17 +1,16 @@
-<h1 align="center">
+<h1>
 mastercomfig install
 </h1>
 
-<p align="center">This guide should help people how to install mastercomfig.
+<p> This guide should help people how to install mastercomfig.
 </p>
 
-<p align="center">Big thanks to
-	<a href="https://github.com/mastercoms">mastercoms</a> for making this config.
+<p> Big thanks to <a href="https://github.com/mastercoms">mastercoms</a> for making this config.
 </p>
 
 **Note:**
- 
-* When updating **modules, presets and addons**, you don't need to clean TF2 again. I recommend that you join **mastercomfig** [discord server](https://discord.com/invite/CuPb2zV) to see **updates + ask questions** if you have problems. Please read the **changelog!** There might be some adjustments you need to change `(the launch options would be an example)`, so keep an eye on it.
+
+* When updating mastercomfig you don't need to clean `TF2`. If there is a new update on the website, you should take some time to read the changelog! there might be some adjustments that you need to change `(the launch options would be an example)`. If you have any problems or concerns, you can ask questions on mastercoms [(mastercomfig)](https://discord.com/invite/CuPb2zV) discord server.
 
 ## Step 1:
 
@@ -133,6 +132,10 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
  
 ## Step 3:
 
+Disabling `steam cloud` in `TF2` can help you reset it completely to it's original state
+
+https://www.reddit.com/r/truetf2/comments/tc1ft/how_to_correctly_turn_off_steamcloud_and_reset/
+
 * Disable **steam cloud on steam**.
 
 		1. Go to the Steam Client Settings
@@ -161,7 +164,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
  
 ## Step 5:
  
-* After checking the integrity of the game files, go to the properties of TF2, `copy and paste` into the launch option:
+* After checking the integrity of the game files, go to the properties of `TF2`, `copy and paste` into the launch option:
   
 `-novid -autoconfig -default +host_writeconfig config.cfg full +mat_savechanges +quit`
 
@@ -171,7 +174,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
  
 ## Step 6:
  
-* Go to the TF2 properties again, `copy and paste` into the launch option: `(subject to change)`
+* Go to the `TF2` properties again, `copy and paste` into the launch option: `(subject to change)`
 
 `-novid -nojoy -nosteamcontroller -nohltv -particles 1 -console -dxlevel 81 -freq 144`
  
