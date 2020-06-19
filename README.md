@@ -20,7 +20,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 
 * Once downloaded, place the `vpk files` on your `desktop`, create a `folder`, name it `custom` and put the `vpk files` in the `folder`.
  
-* Download the [user template](https://github.com/uesu/guide/raw/master/user%20template.rar), unpack and place the `user folder` on your `desktop.`
+* Download the [user template](https://github.com/uesu/guide/raw/master/user%20template.rar), unpack and place the `user folder` on your `desktop`.
 
 <table>
 	<thead>
@@ -133,6 +133,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 Disabling `steam cloud` in `TF2` can help you reset it completely to it's original state
 
 https://www.reddit.com/r/truetf2/comments/tc1ft/how_to_correctly_turn_off_steamcloud_and_reset/
+https://gaming.stackexchange.com/questions/213405/reset-tf2-settings-to-default-and-update-them-in-steam-cloud/309000#309000
 
 * Disable **steam cloud on steam**.
 
@@ -199,7 +200,7 @@ https://www.reddit.com/r/truetf2/comments/tc1ft/how_to_correctly_turn_off_steamc
 	</tbody>
 </table>
 
-`dxlevel 81 disables sheens, skins and visual resulting to produce a lower quality graphics.`
+`dxlevel 81 disables sheens, skins and visual resulting to produce a lower quality graphics`.
 
 **Note:** 
 
