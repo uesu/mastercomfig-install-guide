@@ -132,9 +132,6 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 
 Disabling `steam cloud` in `TF2` can help you reset it completely to it's original state
 
-https://www.reddit.com/r/truetf2/comments/tc1ft/how_to_correctly_turn_off_steamcloud_and_reset/
-https://gaming.stackexchange.com/questions/213405/reset-tf2-settings-to-default-and-update-them-in-steam-cloud/309000#309000
-
 * Disable **steam cloud on steam**.
 
 		1. Go to the Steam Client Settings
