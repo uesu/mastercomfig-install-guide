@@ -172,7 +172,7 @@ Disabling `steam cloud` in `TF2` can help you reset it completely to it's origin
  
 * Go to the `TF2` properties again, `copy and paste` into the launch option: `(subject to change)`
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -console -dxlevel 81 -freq 144`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -disallowhwmorph -console`
  
 * Select which dxlevel best performs for you:
 
@@ -205,7 +205,7 @@ Disabling `steam cloud` in `TF2` can help you reset it completely to it's origin
 
 ##
  
-* **-freq x** : If you have a monitor with 144Hz, do **-freq 144**
+* **-freq x** : If you have a monitor with 144Hz, add **-freq 144** to the launch options
 
 `this applies only if TF2 does not automatically detect the refresh rate on your monitor`
       
