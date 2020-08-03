@@ -172,7 +172,7 @@ Disabling `steam cloud` in `TF2` can help you reset it completely to it's origin
  
 * Go to the `TF2` properties again, `copy and paste` into the launch option: `(subject to change)`
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -disallowhwmorph -console`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -console`
  
 * Select which dxlevel best performs for you:
 
