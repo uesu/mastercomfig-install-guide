@@ -10,17 +10,17 @@ mastercomfig install
 
 **Note:**
 
-* When updating mastercomfig you don't need to clean `TF2`. If there is a new update on the website, you should take some time to read the changelog! there might be some adjustments that you need to change `(the launch options would be an example)`. If you have any problems or concerns, you can ask questions on mastercoms [(mastercomfig)](https://discord.com/invite/CuPb2zV) discord server.
+* When updating mastercomfig you don't need to clean TF2. If there is a new update on the website, you should take some time to read the changelog! there might be some adjustments that you need to change (the launch options would be an example). If you have any problems or concerns, you can ask questions on mastercoms [mastercomfig](https://discord.com/invite/CuPb2zV) discord server.
 
 ## Step 1:
 
 Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here](https://mastercomfig.com/download)
  
-* First, download which preset and addons you want to use, it should be in the assets, click the file and it will be downloaded.
+* First, download which preset and addons you want to use, it should be in the assets (if you are on github), click the file and it will be downloaded.
 
-* Once downloaded, place the `vpk files` on your `desktop`, create a `folder`, name it `custom` and put the `vpk files` in the `folder`.
+* Once downloaded, place the vpk files on your desktop, create a folder, name it **custom** and put the vpk files in the folder.
  
-* Download the [user template](https://github.com/uesu/mastercomfig-install-guide/raw/master/user%20template.zip), unpack and place the `user folder` on your `desktop`.
+* Download the [user template](https://github.com/uesu/mastercomfig-install-guide/raw/master/user%20template.zip), unzip and place the **user** folder on your desktop.
 
 <table>
 	<thead>
@@ -124,18 +124,20 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
  
 ## Step 2:
  
-* Delete `cfg` & `custom` folder in `tf` folder.
+* Delete **cfg** & **custom** folder in tf folder.
  
 * **Location** : `C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf`
  
 ## Step 3:
 
-Disabling `steam cloud` in `TF2` can help you reset it completely to it's original state
+Disabling **steam cloud** in `TF2` can help you reset it completely to it's original state
 
 * Disable **steam cloud on steam**.
 
 		1. Go to the Steam Client Settings
 		2. Select the cloud tab and uncheck the enable steam cloud synchronization
+		
+**Note:** This will disable all steam synchronization in your games		
 
 * Disable **steam cloud synchronization**.
 
@@ -148,7 +150,7 @@ Disabling `steam cloud` in `TF2` can help you reset it completely to it's origin
                   
 **Note:** 
 
-* If the **remote folder** contains `no cfg` file, you have already `disabled steam cloud`.
+* If the **remote folder** contains no cfg file, you have already disabled steam cloud.
  
 ## Step 4:
  
@@ -160,17 +162,17 @@ Disabling `steam cloud` in `TF2` can help you reset it completely to it's origin
  
 ## Step 5:
  
-* After checking the integrity of the game files, go to the properties of `TF2`, `copy and paste` into the launch option:
+* After checking the integrity of the game files, go to the properties of TF2, copy and paste to the launch option.
   
 `-novid -autoconfig -default +host_writeconfig config.cfg full +mat_savechanges +quit`
 
 **Note:**
 
-* Start `TF2`, the game will launch and exit afterwards. remove these launch options after.
+* Launch TF2, the game will launch and exit afterwards. remove these launch options after.
  
 ## Step 6:
  
-* Go to the `TF2` properties again, `copy and paste` into the launch option: `(subject to change)`
+* Go to TF2 properties again, copy and paste **(may change)**
 
 `-novid -nojoy -nosteamcontroller -nohltv -particles 1 -console`
  
@@ -197,11 +199,9 @@ Disabling `steam cloud` in `TF2` can help you reset it completely to it's origin
 	</tbody>
 </table>
 
-`dxlevel 81 disables sheens, skins and visual resulting to produce a lower quality graphics`.
-
 **Note:** 
 
-* Remove the `-dxlevel` after the first launch.
+* dxlevel 81 disables sheens, skins and visual resulting to produce a lower quality graphics. Remove the `-dxlevel` after the first launch.
 
 ##
  
@@ -213,13 +213,13 @@ Disabling `steam cloud` in `TF2` can help you reset it completely to it's origin
  
 * **-w and -h** : are removed; instead you should change the resolution in the game.
  
-With the in-game resolution settings, you can set your resolution to `mat_setvideomode 1920 1080 0` within the `console`. Change `1920 1080` to your desired resolution.
+With the in-game resolution settings, you can set your resolution to `mat_setvideomode 1920 1080 0` within the console. Change `1920 1080` to your desired resolution.
  
 [launch options](https://docs.mastercomfig.com/en/latest/customization/launch_options/)
  
 ## Step 7:
  
-* Place the `user folder` to `tf/cfg` and `vpk files` to `tf/custom`
+* Place the **user** folder to tf/cfg and **vpk files** to `tf/custom`
  
 * **Location** : `C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf`
 
