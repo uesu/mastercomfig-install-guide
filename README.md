@@ -130,14 +130,14 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
  
 ## Step 3:
 
-Disabling **steam cloud** in `TF2` can help you reset it completely to it's original state
+Disabling **steam cloud** in `TF2` can help you reset it completely to it's original state.
 
 * Disable **steam cloud on steam**.
 
 		1. Go to the Steam Client Settings
 		2. Select the cloud tab and uncheck the enable steam cloud synchronization
 		
-**Note:** This will disable all steam synchronization in your games		
+**Note:** This will disable all steam synchronization in your games.
 
 * Disable **steam cloud synchronization**.
 
