@@ -219,7 +219,7 @@ With the in-game resolution settings, you can set your resolution to `mat_setvid
  
 ## Step 7:
  
-* Place the **user** folder to tf/cfg and **vpk files** to `tf/custom`
+* Place the **user** folder to `tf/cfg` and **vpk files** to `tf/custom`
  
 * **Location** : `C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf`
 
