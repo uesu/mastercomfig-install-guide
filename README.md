@@ -104,12 +104,6 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 		</td>
 	</tr>
 		<tr>
-		<td>bad gpu</td>
-		<td>
-			for those who have weak graphics cards 
-		</td>
-	</tr>
-		<tr>
 		<td>low memory</td>
 		<td>
 			for those who have 4GB of ram and lower
@@ -174,7 +168,7 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
  
 * Go to TF2 properties again, copy and paste **(may change)**
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -console`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1`
  
 * Select which dxlevel best performs for you:
 
