@@ -16,7 +16,7 @@ mastercomfig install
 
 Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here](https://mastercomfig.com/download)
  
-* First, download which preset and addons you want to use, it should be in the assets (if you are on github), click the file and it will be downloaded.
+* First, download the preset and addons that you would like to use. Downloading to the mastercomfig website is also recommended as you can customize the preset quality (customizing modules). You can find the files on the release assets if you are on Github.
 
 * Once downloaded, place the vpk files on your desktop, create a folder, name it **custom** and put the vpk files in the folder.
  
