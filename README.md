@@ -168,7 +168,7 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
  
 * Go to TF2 properties again, copy and paste **(may change)**
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -nostartupsound`
  
 * Select which dxlevel best performs for you:
 
