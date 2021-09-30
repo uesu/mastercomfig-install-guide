@@ -109,12 +109,31 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 			for those who have 4GB of ram and lower
 		</td>
 	</tr>
+		<tr>
+		<td>null - movement</td>
+		<td>
+			prevents you from pressing two opposite directions
+		</td>
+	</tr>
+		<tr>
+		<td>opengl</td>
+		<td>
+			for macOS and linux
+		</td>
+	</tr>
+		<tr>
+		<td>transparent viewmodels</td>
+		<td>
+			support for transparent viewmodels
+		</td>
+	</tr>
 	</tbody>
 </table>
 
 **Note**: 
 
-* Update presets and add-ons if there is a new update!
+* If there is a new update, you should update your presets and addons. For instance, preset = low old version --> new version
+* Addons are rarely updated, but if there is a new update, simply replace it.
  
 ## Step 2:
  
@@ -168,7 +187,7 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
  
 * Go to TF2 properties again, copy and paste **(may change)**
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -nostartupsound`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -nostartupsound -noquicktime`
  
 * Select which dxlevel best performs for you:
 
@@ -179,15 +198,15 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
 	</thead>
 	<tbody>
 	<tr>
-		<td>dxlevel 81</td>
+		<td>dxlevel 80 or 81</td>
 		<td>
-			DX8 with dynamic shadows
+			DirectX 8, Pixel Shader 1.1. Uses out-of-date rendering methods that do not fully exploit hardware.
 		</td>
 	</tr>
 	<tr>
 		<td>dxlevel 100</td>
 		<td>
-			dxlevel 95 with unrestricted GPU feature level support (DX10 card support)
+			Pixel Shader 2.0b, DirectX 9. Determines graphics capabilities using hardware. (recommended)
 		</td>
 	</tr>
 	</tbody>
@@ -195,7 +214,7 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
 
 **Note:** 
 
-* dxlevel 81 disables sheens, skins and visual resulting to produce a lower quality graphics. Remove the `-dxlevel` after the first launch.
+* dxlevel 80 disables sheens, skins and visual resulting to produce a lower quality graphics. Remove the `-dxlevel` after the first launch.
 
 ##
  
