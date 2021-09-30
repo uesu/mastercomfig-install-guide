@@ -20,7 +20,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 
 * Once downloaded, place the vpk files on your desktop, create a folder, name it **custom** and put the vpk files in the folder.
  
-* Download the [user template](https://github.com/uesu/mastercomfig-install-guide/raw/master/user%20template.zip), unzip and place the **user** folder on your desktop.
+* Download the [user template](https://github.com/uesu/mastercomfig-install-guide/raw/master/user%20template.zip) or [here](https://github.com/mastercomfig/mastercomfig/releases) (look for the most recent releases and download user template in assets), unzip and place the **user** folder on your desktop.
 
 <table>
 	<thead>
