@@ -20,7 +20,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 
 * Once downloaded, place the vpk files on your desktop, create a folder, name it **custom** and put the vpk files in the folder.
  
-* Download the [user template](https://github.com/uesu/mastercomfig-install-guide/raw/master/user%20template.zip) or [here](https://github.com/mastercomfig/mastercomfig/releases) (look for the most recent releases and download user template in assets), unzip and place the **user** folder on your desktop.
+* Download the [overrides template](https://github.com/uesu/mastercomfig-install-guide/raw/master/user%20template.zip) or [here](https://github.com/mastercomfig/mastercomfig/releases) (look for the most recent releases and download overrides template in assets), unzip and place the **overrides** folder on your desktop.
 
 <table>
 	<thead>
@@ -150,12 +150,12 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
 		1. Go to the Steam Client Settings
 		2. Select the cloud tab and uncheck the enable steam cloud synchronization
 		
-**Note:** This will disable all steam synchronization in your games.
+**Note:** This will disable all steam synchronization in your games. Enable it right away after completing the steps; alternatively, disable steam sync for TF2 only.
 
-* Disable **steam cloud synchronization**.
+* Disable **steam cloud synchronization on TF2**.
 
-		1. Right-click on Team Fortress 2 and select properties
-		2. Select the updates tab and uncheck the enable steam cloud synchronization
+		1. Right-click on Team Fortress 2 in your steam library and select properties
+		2. In General, look for steam cloud text and uncheck "Keep game saves in the Steam Cloud for Team Fortress 2"
                 
 * Make all the files in `C:/Program Files (x86)/Steam/userdata/user_id/440/remote/cfg`
  
@@ -170,7 +170,7 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
 * Verify Game File Integrity:
  
 		1. Right-click on Team Fortress 2 and select properties
-		2. Select the local files tab and click verify integrity of game files
+		2. Select the installed files tab and click verify integrity of game files
 		3. Wait for it to be done
  
 ## Step 5:
@@ -187,7 +187,9 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
  
 * Go to TF2 properties again, copy and paste **(may change)**
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -nostartupsound -noquicktime`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime`
+
+## Step 7: Optional
  
 * Select which dxlevel best performs for you:
 
@@ -198,15 +200,15 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
 	</thead>
 	<tbody>
 	<tr>
-		<td>dxlevel 80 or 81</td>
+		<td>dxlevel 90</td>
 		<td>
-			DirectX 8, Pixel Shader 1.1. Uses out-of-date rendering methods that do not fully exploit hardware.
+			DirectX 9, Pixel Shader 2.0b. Lower graphical quality while still using semi-modern rendering methods.
 		</td>
 	</tr>
 	<tr>
-		<td>dxlevel 100</td>
+		<td>dxlevel 95</td>
 		<td>
-			Pixel Shader 2.0b, DirectX 9. Determines graphics capabilities using hardware. (recommended)
+			DirectX 9+, Pixel Shader 3.0. Highest graphical quality.
 		</td>
 	</tr>
 	</tbody>
@@ -214,11 +216,12 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
 
 **Note:** 
 
-* dxlevel 80 disables sheens, skins and visual resulting to produce a lower quality graphics. Remove the `-dxlevel` after the first launch.
+* dxlevel 80 or 81 disables sheens, skins and visual resulting to produce a lower quality graphics. Remove the `-dxlevel` after the first launch.
+* dxlevel 80 or 81 is not recommended, especially for competitive matches, as dxlevel 90 or 95 is required.
 
 ##
  
-* **-freq x** : If you have a monitor with 144Hz, add **-freq 144** to the launch options
+* **-freq x** : If you have a monitor with 144Hz or higher, add **-freq 144** to the launch options
 
 `this applies only if TF2 does not automatically detect the refresh rate on your monitor`
       
@@ -230,9 +233,9 @@ With the in-game resolution settings, you can set your resolution to `mat_setvid
  
 [launch options](https://docs.mastercomfig.com/en/latest/customization/launch_options/)
  
-## Step 7:
+## Step 8: Installation of Custom/Own cfg, Mastercomfig Presets and Addons
  
-* Place the **user** folder to `tf/cfg` and **vpk files** to `tf/custom`
+* Place the **overrides** folder to `tf/cfg` and **vpk files** to `tf/custom`
  
 * **Location** : `C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf`
 
