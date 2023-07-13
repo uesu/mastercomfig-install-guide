@@ -8,6 +8,8 @@ mastercomfig install
 <p> Big thanks to <a href="https://github.com/mastercoms">mastercoms</a> for making this config.
 </p>
 
+[Video guide](https://youtu.be/JLrUDodt1sY)
+
 **Note:**
 
 * When updating mastercomfig you don't need to clean TF2. If there is a new update on the website, you should take some time to read the changelog! there might be some adjustments that you need to change (the launch options would be an example). If you have any problems or concerns, you can ask questions on mastercoms [mastercomfig](https://discord.com/invite/CuPb2zV) discord server.
