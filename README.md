@@ -5,24 +5,24 @@ mastercomfig install
 <p> This guide should help people how to install mastercomfig.
 </p>
 
-<p> Big thanks to <a href="https://github.com/mastercoms">mastercoms</a> for making this config.
+<p> Big thanks to <a href="https://github.com/mastercoms">mastercoms</a> for making this.
 </p>
 
 [Video guide](https://youtu.be/JLrUDodt1sY)
 
 **Note:**
 
-* When updating mastercomfig you don't need to clean TF2. If there is a new update on the website, you should take some time to read the changelog! there might be some adjustments that you need to change (the launch options would be an example). If you have any problems or concerns, you can ask questions on mastercoms [mastercomfig](https://discord.com/invite/CuPb2zV) discord server.
+* When updating mastercomfig (presets) you don't need to clean TF2 everytime, unless you have issues of course. If there is a new update on the website, you should take some time to read the changelog! there might be some adjustments that you need to change (the launch options would be an example). If you have any problems or concerns, you can ask questions on mastercoms [mastercomfig](https://discord.com/invite/CuPb2zV) discord server.
 
 ## Step 1:
 
-Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here](https://mastercomfig.com/)
+Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here](https://comfig.app/)
  
-* First, download the preset and addons that you would like to use. Downloading to the mastercomfig website is also recommended as you can customize the preset quality (customizing modules). You can find the files on the release assets if you are on Github.
+* First, choose a preset, customize the preset and addons that you would like to use.
 
-* Once downloaded, place the vpk files on your desktop, create a folder, name it **custom** and put the vpk files in the folder.
+* Second, download it. Once downloaded, place the vpk files on your desktop, create a folder, name it **custom** and put the vpk files in the folder.
  
-* Download the [overrides template](https://github.com/uesu/mastercomfig-install-guide/raw/master/overrides%20template.zip) or [here](https://github.com/mastercomfig/mastercomfig/releases) (look for the most recent releases and download overrides template in assets), unzip and place the **overrides** folder on your desktop.
+* Download the [overrides template](https://github.com/mastercomfig/mastercomfig/releases) (look for the most recent releases and download overrides template in assets), unzip and place the **overrides** folder on your desktop.
 
 <table>
 	<thead>
@@ -33,43 +33,49 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 	<tr>
 		<td>ultra</td>
 		<td>
-			absolute maximum quality
+			absolute maximum quality, with even the slightest and most performance-intensive quality improvements included
 		</td>
 	</tr>
 	<tr>
 		<td>high</td>
 		<td>
-			high quality
+			enables all graphical features without making them extremely high quality
 		</td>
 	</tr>
 		<tr>
 		<td>medium high</td>
 		<td>
-			higher medium preset nearly equal with high
+			disables unoptimized features and optimizes the game without making the game look bad
 		</td>
 	</tr>
 		<tr>
 		<td>medium</td>
 		<td>
-			medium quality with adjustable effects
+			the maximum performance you can get while enabling a few effects that may give you a slight edge
 		</td>
 	</tr>
 		<tr>
 		<td>medium low</td>
 		<td>
-			medium low quality 
+			the maximum performance you can get without making the game too hard to play because of awful visual quality and glitches
 		</td>
 	</tr>
 		<tr>
 		<td>low</td>
 		<td>
-			maximum performance
+			maximum performance without caring much about visibility or possible visual glitches
 		</td>
 	</tr>
 		<tr>
 		<td>very low</td>
 		<td>
-			same as low but disabled parts of hud elements and visibility
+			negatively affects playability by a lot and disables very essential features like HUD elements in desperation for performance
+		</td>
+ 	</tr>
+		<tr>
+		<td>none</td>
+		<td>
+			special preset which skips setting quality options
 		</td>
 	</tr>
 	</tbody>
@@ -118,9 +124,9 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 		</td>
 	</tr>
 		<tr>
-		<td>opengl</td>
+		<td>flat mouse</td>
 		<td>
-			for macOS and linux
+			flat, stable input, no accel, 1:1 zoom
 		</td>
 	</tr>
 		<tr>
@@ -187,9 +193,9 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
  
 ## Step 6:
  
-* Go to TF2 properties again, copy and paste **(may change)**
+* Go to TF2 properties again, copy and paste **(may change https://docs.comfig.app/latest/customization/launch_options/)**
 
-`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -noquicktime`
+`-novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars`
 
 ## Step 7: Optional
  
@@ -204,13 +210,13 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
 	<tr>
 		<td>dxlevel 90</td>
 		<td>
-			DirectX 9, Pixel Shader 2.0b. Lower graphical quality while still using semi-modern rendering methods.
+			directX 9, Pixel Shader 2.0b. Lower graphical quality while still using semi-modern rendering methods
 		</td>
 	</tr>
 	<tr>
-		<td>dxlevel 95</td>
+		<td>dxlevel 100</td>
 		<td>
-			DirectX 9+, Pixel Shader 3.0. Highest graphical quality.
+			directX 9+, Pixel Shader 3.0. Highest graphical quality
 		</td>
 	</tr>
 	</tbody>
@@ -218,27 +224,22 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
 
 **Note:** 
 
-* dxlevel 80 or 81 disables sheens, skins and visual resulting to produce a lower quality graphics. Remove the `-dxlevel` after the first launch.
-* dxlevel 80 or 81 is not recommended, especially for competitive matches, as dxlevel 90 or 95 is required.
+* remove the `-dxlevel` launch option after the first launch as stated on the official documentation
+* dxlevel 8 or 80 and 81 is not recommended, especially for competitive matches?
+* more info about dxlevel 8: https://docs.comfig.app/latest/customization/launch_options/#directx-8
 
 ##
  
-* **-freq x** : If you have a monitor with 144Hz or higher, add **-freq 144** to the launch options
-
-`this applies only if TF2 does not automatically detect the refresh rate on your monitor`
-      
-##
- 
-* **-w and -h** : are removed; instead you should change the resolution in the game.
+* **-w and -h** -> removed; instead you should change the resolution in the game.
  
 With the in-game resolution settings, you can set your resolution to `mat_setvideomode 1920 1080 0` within the console. Change `1920 1080` to your desired resolution.
- 
-[launch options](https://docs.mastercomfig.com/en/latest/customization/launch_options/)
  
 ## Step 8: Installation of Custom/Own cfg, Mastercomfig Presets and Addons
  
 * Place the **overrides** folder to `tf/cfg` and **vpk files** to `tf/custom`
  
-* **Location** : `C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf`
+* **Location** : 
+  - `C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf`
+  - `C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/custom`
 
 * Launch **Team Fortress 2**
