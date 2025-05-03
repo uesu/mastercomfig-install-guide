@@ -22,7 +22,7 @@ Download [here](https://github.com/mastercomfig/mastercomfig/releases) or [here]
 
 * Second, download it. Once downloaded, place the vpk files on your desktop, create a folder, name it **custom** and put the vpk files in the folder.
  
-* Download the [overrides template](https://github.com/mastercomfig/mastercomfig/releases) (look for the most recent releases and download overrides template in assets), unzip and place the **overrides** folder on your desktop.
+* Download the [overrides template](https://github.com/mastercomfig/mastercomfig/releases) (look for the most recent releases -> example 9.10.3 and download overrides template in assets -> located at the near bottom when you expand assets), unzip and place the **overrides** folder on your desktop.
 
 <table>
 	<thead>
