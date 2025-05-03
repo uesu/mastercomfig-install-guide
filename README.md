@@ -236,7 +236,7 @@ With the in-game resolution settings, you can set your resolution to `mat_setvid
  
 ## Step 8: Installation of Custom/Own cfg, Mastercomfig Presets and Addons
  
-* Place the **overrides** folder to `tf/cfg` and **vpk files** to `tf/custom`
+* Place the **overrides** folder to `tf/cfg` and **vpk files or hud** to `tf/custom`
  
 * **Location** : 
   - `C:/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf`
