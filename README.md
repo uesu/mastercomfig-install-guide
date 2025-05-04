@@ -171,7 +171,7 @@ Disabling **steam cloud** in `TF2` can help you reset it completely to it's orig
                   
 **Note:** 
 
-* If the **remote folder** contains no cfg file, you have already disabled steam cloud.
+* If the **remote folder** contains no cfg file, you have already disabled steam cloud before perhaps. it will re-generate no worries.
  
 ## Step 4:
  
